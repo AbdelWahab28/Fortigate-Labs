@@ -25,3 +25,4 @@ Comprendre et configurer les VLANs sur FortiGate pour segmenter le réseau et s�
 - `config-FortiGate.pdf` – Captures d’écran / configuration FortiGate
 - `config-Switches.pdf` – Captures d’écran / configuration Switch Cisco
 - `Mise en place d’un lab FortiGate sur GNS3 : VLAN, switch Cisco L2 et segmentation réseau – Partie 1.pdf` – PDF complet du projet avec captures d’écran et explications détaillées
+- `Rapport de Diagnostic VLAN.pdf` - PDF de diagnostic du projet
