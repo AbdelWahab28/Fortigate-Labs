@@ -5,19 +5,23 @@ Comprendre et configurer les VLANs sur FortiGate pour segmenter le réseau et s�
 
 ## Matériel / Prérequis
 - FortiGate (VM ou GNS3)
-- PC virtuel ou simulateur
-- Diagramme réseau
+- Switch Cisco
+- PCs virtuels pour tester la connectivité
+- Connexion Internet pour télécharger les images si nécessaire
+- Schéma de l'architecture réseau (`architecture.png`)
 
 ## Étapes
 1. Créer les VLANs sur l’interface FortiGate
-2. Configurer les adresses IP
-3. Configurer le routage interne
-4. Tester la communication entre VLANs
+2. Configurer les VLANs sur le Switch Cisco
+3. Configurer le routage statique
+4. Tester l'attribution des adresses IP sur les PCs par le FortiGate
 
 ## Résultats attendus
 - Les VLANs sont accessibles et isolés selon les règles définies
-- Les tests de ping entre VLANs respectent les règles de sécurité
+- Les PCs reçoivent correctement une adresse IP selon leur VLAN d’appartenance
 
 ## Fichiers inclus
-- `diagram.png` – Schéma réseau
-- `config.txt` – Configuration FortiGate utilisée
+- `architecture.png` – Schéma réseau
+- `config-FortiGate.txt` – Captures d’écran / configuration FortiGate
+- `config-Switches.txt` – Captures d’écran / configuration Switch Cisco
+- `Lab-VLAN.pdf` – PDF complet du projet avec captures d’écran et explications détaillées
