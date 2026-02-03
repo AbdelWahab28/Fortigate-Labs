@@ -19,7 +19,7 @@ et la sécurité sur un firewall FortiGate.
 - Sécurité réseau
 
 ## 🧩 Architecture
-![Architecture réseau](architecture.png)
+![Architecture réseau](architecture.PNG)
 
 ## ⚙️ Étapes clés 
 1. Création des VLANs sur le FortiGate
