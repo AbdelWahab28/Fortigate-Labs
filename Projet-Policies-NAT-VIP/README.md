@@ -1,8 +1,10 @@
 # Lab 2 – Sécurité avancée FortiGate : Policies, Profils, NAT & VIP
 
 ## Objectif
-Mettre en place des politiques de sécurité avancées sur FortiGate
-afin de contrôler, inspecter et publier des flux réseau de manière sécurisée.
+- Créer une organisation claire des objets FortiGate (adresses, groupes, services)
+- Configurer les firewall policy pour gérer l’accès entre VLANs et vers Internet
+- Créer un VIP pour exposer un serveur interne
+- Activer les Security Profiles pour bloquer certains services (réseaux sociaux, streaming, jeux…)
 
 ## Scénario
 Un réseau interne segmenté par VLAN doit :
@@ -35,4 +37,4 @@ Un réseau interne segmenté par VLAN doit :
 - `architecture.png` – Schéma réseau
 - `config-FortiGate.txt` – Captures de configuration FortiGate
 - `config-Switches.txt` – Configuration Switch (si applicable)
-- `Lab-Security.pdf` – Documentation complète du lab
+- `Lab FortiGate – Sécurité avancée : policies, profils de sécurité, NAT, VIP  – Partie 2.pdf` – Documentation complète du lab
