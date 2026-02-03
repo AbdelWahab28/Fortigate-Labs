@@ -35,6 +35,5 @@ Un réseau interne segmenté par VLAN doit :
 
 ## Fichiers inclus
 - `architecture.png` – Schéma réseau
-- `config-FortiGate.txt` – Captures de configuration FortiGate
-- `config-Switches.txt` – Configuration Switch (si applicable)
+- `config-FortiGate.pdf` – Captures de configuration FortiGate
 - `Lab FortiGate – Sécurité avancée : policies, profils de sécurité, NAT, VIP  – Partie 2.pdf` – Documentation complète du lab
