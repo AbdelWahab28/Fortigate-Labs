@@ -1,28 +1,50 @@
-# Lab 1 – VLAN & segmentation réseau
+# Lab 1 – VLAN & segmentation réseau sur FortiGate
 
-## Objectif
-Comprendre et configurer les VLANs sur FortiGate pour segmenter le réseau et sécuriser le trafic interne.
+## 🧠 Contexte & Objectif
+Ce lab simule une infrastructure d’entreprise nécessitant une **segmentation réseau**
+afin d’améliorer la **sécurité**, l’**isolation des flux** et la **gestion des accès internes**.
+L’objectif est de démontrer la mise en œuvre des VLANs sur FortiGate et leur intégration
+avec un switch Cisco de niveau 2.
 
-## Matériel / Prérequis
-- FortiGate (VM ou GNS3)
-- Switch Cisco
-- PCs virtuels pour tester la connectivité
-- Connexion Internet pour télécharger les images si nécessaire
-- Schéma de l'architecture réseau (`architecture.png`)
+## 🧪 Scénario
+Une entreprise souhaite segmenter son réseau interne en plusieurs VLANs
+(utilisateurs, administration, serveurs, etc.) tout en centralisant le routage
+et la sécurité sur un firewall FortiGate.
 
-## Étapes
-1. Créer les VLANs sur l’interface FortiGate
-2. Configurer les VLANs sur le Switch Cisco
-3. Configurer le routage statique
-4. Tester l'attribution des adresses IP sur les PCs par le FortiGate
+## 🛠️ Technologies & concepts
+- FortiGate (VM / GNS3)
+- VLAN & segmentation réseau
+- Switch Cisco Layer 2
+- Routage statique
+- Sécurité réseau
 
-## Résultats attendus
-- Les VLANs sont accessibles et isolés selon les règles définies
-- Les PCs reçoivent correctement une adresse IP selon leur VLAN d’appartenance
+## 🧩 Architecture
+![Architecture réseau](architecture.png)
 
-## Fichiers inclus
-- `architecture.png` – Schéma réseau
-- `config-FortiGate.pdf` – Captures d’écran / configuration FortiGate
-- `config-Switches.pdf` – Captures d’écran / configuration Switch Cisco
-- `Mise en place d’un lab FortiGate sur GNS3 : VLAN, switch Cisco L2 et segmentation réseau – Partie 1.pdf` – PDF complet du projet avec captures d’écran et explications détaillées
-- `Rapport de Diagnostic VLAN.pdf` - PDF de diagnostic du projet
+## ⚙️ Étapes clés 
+1. Création des VLANs sur le FortiGate
+2. Configuration des VLANs sur le switch Cisco
+3. Mise en place du routage statique
+4. Attribution automatique des adresses IP aux postes clients
+5. Tests de connectivité inter-VLAN
+
+## ✅ Résultats & validation
+- Segmentation réseau fonctionnelle
+- Isolation des VLANs selon les règles définies
+- Attribution correcte des adresses IP par VLAN
+- Communication contrôlée entre les segments réseau
+
+## 🎯 Compétences démontrées
+- Conception d’une architecture réseau segmentée
+- Configuration FortiGate via interface graphique
+- Intégration firewall ↔ switch Cisco
+- Analyse et validation du fonctionnement réseau
+
+## 📂 Contenu du dossier
+- `architecture.png` – Schéma de l’architecture réseau
+- `config-FortiGate.pdf` – Captures d’écran de la configuration FortiGate
+- `config-Switches.pdf` – Captures d’écran de la configuration Switch Cisco
+- `Mise en place d’un lab FortiGate sur GNS3 – VLAN & segmentation réseau.pdf` – Documentation complète du lab
+- `Rapport de Diagnostic VLAN.pdf` – Analyse et diagnostic du projet
+
+📄 *Si les fichiers PDF ne s’affichent pas directement dans GitHub, veuillez les télécharger pour les consulter.*
