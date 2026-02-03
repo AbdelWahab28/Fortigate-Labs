@@ -1,39 +1,50 @@
 # Lab 2 – Sécurité avancée FortiGate : Policies, Profils, NAT & VIP
 
-## Objectif
-Mettre en place des politiques de sécurité avancées sur FortiGate
-afin de contrôler, inspecter et publier des flux réseau de manière sécurisée.
+## 🧠 Contexte & Objectif
+Ce lab simule une infrastructure d’entreprise avec VLANs segmentés,
+où il est nécessaire de **contrôler, inspecter et sécuriser le trafic interne**.
+L’objectif est de démontrer la mise en place de **politiques avancées** sur FortiGate,
+l’application de **profils de sécurité**, et la configuration de **NAT/VIP** pour publier des services.
 
-## Scénario
-Un réseau interne segmenté par VLAN doit :
-- accéder à Internet de façon contrôlée
-- être protégé par des profils de sécurité
-- exposer un service interne via une IP publique (VIP)
+## 🧪 Scénario
+Une entreprise doit :
+- contrôler l’accès Internet depuis différents VLANs
+- sécuriser le trafic interne avec des profils de sécurité (AV, Web Filter, IPS)
+- publier un service interne accessible depuis l’extérieur via une IP publique (VIP)
 
-## Technologies utilisées
+## 🛠️ Technologies & concepts
 - FortiGate (VM / GNS3)
+- VLAN & segmentation réseau
 - Switch Cisco
-- VLANs
 - Firewall Policies
 - Security Profiles (AV, Web Filter, IPS)
 - NAT & Virtual IP (VIP)
 
-## Étapes principales
+## 🧩 Architecture
+![Architecture réseau](architecture.png)
+
+## ⚙️ Étapes clés
 1. Création des politiques firewall inter-VLAN
 2. Application des profils de sécurité
 3. Configuration du NAT sortant
-4. Mise en place d’un VIP pour publier un service interne
-5. Tests de sécurité et de connectivité
+4. Mise en place d’un VIP pour un service interne
+5. Tests de sécurité et validation
 
-## Résultats attendus
+## ✅ Résultats & validation
 - Trafic autorisé uniquement selon les règles définies
-- Inspection du trafic via profils de sécurité
+- Inspection du trafic par les profils de sécurité
 - Accès Internet fonctionnel et sécurisé
 - Service interne accessible depuis l’extérieur via VIP
 
-## Fichiers inclus
+## 🎯 Compétences démontrées
+- Conception et sécurisation d’un réseau interne segmenté
+- Configuration avancée de FortiGate via interface graphique
+- Application de politiques et profils de sécurité
+- Publication sécurisée de services internes via NAT / VIP
+
+## 📂 Contenu du dossier
 - `architecture.png` – Schéma réseau
 - `config-FortiGate.pdf` – Captures de configuration FortiGate
 - `Lab FortiGate – Sécurité avancée _ policies, profils de sécurité, NAT, VIP  – Partie 2.pdf` – Documentation complète du lab
-📄 **Note :**
-Si le PDF ne s’affiche pas directement dans GitHub, veuillez le télécharger pour le consulter.
+
+📄 *Si le PDF ne s’affiche pas directement sur GitHub, veuillez le télécharger pour le consulter.*
