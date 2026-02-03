@@ -1,6 +1,6 @@
 # FortiGate Labs
 
-Ce dépôt contient une série de projets pratiques sur FortiGate, couvrant la configuration réseau, la sécurité avancée et les VPN.
+Ce dépôt contient une série de projets pratiques sur FortiGate, couvrant la configuration réseau, la sécurité avancée et les VPN que j'ai realisé.
 
 ## Sommaire des projets
 
