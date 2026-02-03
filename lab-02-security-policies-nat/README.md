@@ -1,4 +1,4 @@
-# Lab 2 – Sécurité avancée FortiGate : Policies, Profils, NAT & VIP
+# Sécurité avancée : policies, profils, NAT, VIP
 
 ## Objectif
 Mettre en place des politiques de sécurité avancées sur FortiGate
