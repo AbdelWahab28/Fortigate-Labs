@@ -61,4 +61,4 @@ Cloud Security & Automatisation
 
 📧 Email : wahababdel2802@gmail.com  
 
-© 2026 AbdelWahab Abdourahamane. Tous droits réservés.
+© 2026 Abdourahamane AbdelWahab. Tous droits réservés.
