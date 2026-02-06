@@ -25,7 +25,7 @@ configuration VLAN, segmentation réseau, policies avancées, VPN et sécurisati
 | 01 | VLAN & segmentation réseau | ✅ Terminé | [Lab 01](./Projet-VLAN-Segmentation) |
 | 02 | Sécurité avancée : policies, profils, NAT, VIP | ✅ Terminé | [Lab 02](./Projet-Policies-NAT-VIP) |
 | 03 | VPN Site-to-Site | ✅ Terminé | [Lab 03](./Projet-VPN-Site-to-Site) |
-| 04 | SSL VPN sécurisé | ⏳ À venir | [Lab 04](./Projet-SSL-VPN) |
+| 04 | SSL VPN sécurisé | ✅ Terminé | [Lab 04](./Projet-SSL-VPN) |
 
 ---
 
