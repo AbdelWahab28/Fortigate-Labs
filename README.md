@@ -55,7 +55,7 @@ Abdourahamane AbdelWahab
 Engineer Cybersécurité | DevSecOps | SOC Analyst |
 Cloud Security & Automatisation
 
-🔗 LinkedIn : https://www.linkedin.com/in/abdourahamaneabdelwahab
+🔗 LinkedIn : https://linkedin.com/in/abdelwahab28
 
 🐙 GitHub : https://github.com/AbdelWahab28
 
