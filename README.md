@@ -52,8 +52,8 @@ FortiGate-Labs/
 ```
 ## 👤 Auteur
 Abdourahamane AbdelWahab
-Engineer Cybersécurité | DevSecOps | SOC Analyst |
-Cloud Security & Automatisation
+
+Security Engineer | Network & Infrastructure Security | DevSecOps
 
 🔗 LinkedIn : https://linkedin.com/in/abdelwahab28
 
